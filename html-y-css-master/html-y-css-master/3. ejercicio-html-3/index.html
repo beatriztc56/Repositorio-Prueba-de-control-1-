@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio HTML 1</title>
+    </head>
+
+    <body>
+        <form method="GET" action=".">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <ul>
+                    <li>
+                        <label>
+                            Nombre
+                            <input
+                                type="text"
+                                autofocus
+                                name="Nombre"
+                                required
+                            />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Correo electrónico
+                            <input type="email" required />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            URL
+                            <input
+                                type="URL"
+                                placeholder="Escribe la URL de tu página web personal"
+                            />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Fecha
+                            <input type="date" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Tiempo
+                            <input type="time" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Fecha y hora
+                            <input type="datetime" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Mes
+                            <input type="month" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Semana
+                            <input type="week" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Número
+                            <input type="number" min="-10" max="10" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Teléfono
+                            <input type="tel" value="+34" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Término de búsqueda
+                            <input type="search" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Color favorito
+                            <input type="color" />
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

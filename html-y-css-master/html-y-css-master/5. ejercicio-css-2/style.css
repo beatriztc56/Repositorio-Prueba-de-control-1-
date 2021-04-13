@@ -1,0 +1,18 @@
+.form {
+    justify-content: center;
+    max-width: 800px;
+    min-width: 400px;
+}
+
+.fieldset:hover {
+    background-color: grey;
+    padding: 1rem;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+#submit {
+    background-color: black;
+    color: blanchedalmond;
+    border-style: none;
+}

@@ -1,0 +1,14 @@
+.img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-image: url(/desktop.png);
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    height: auto;
+    position: absolute;
+    background-image: url(/mobile.png);
+    background-repeat: no-repeat;
+}
